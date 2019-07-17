@@ -1,4 +1,4 @@
-#Welcome to the muddler wiki!
+# Welcome to the muddler wiki!
 
 ## Installation
 * Download the latest release from https://github.com/demonnic/muddler/releases.
