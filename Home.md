@@ -44,3 +44,4 @@ In the above example, I can see by looking there is a script object named 'code'
 
 The resources directory holds any additional files you want to be included in the zipped mpackage.
 
+Please see the pages for the individual Mudlet objects on the right bar. Yes, I'm aware you technically can't put comments in json, but it was easiest for documentation purposes at the moment.
