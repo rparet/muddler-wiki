@@ -5,7 +5,7 @@ As with all things muddler, the trigger objects are described using a json file.
 ```
 [
   {
-    "name": "Prompt", # the name of the script object being created
+    "name": "Prompt", # the name of the trigger object being created
     "isActive": "yes", # is this active? Defaults to yes
     "command": "score", # send a command when the trigger fires. like putting something in command in the editor
     "multiline": "no", # same as checking the AND / Multi-line (delta) checkbox. Defaults to no
