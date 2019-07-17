@@ -46,7 +46,7 @@ As with all things muddler, the trigger objects are described using a json file.
     ]
   },
   {
-  # You would describe the next script in this folder here.
+  # You would describe the next trigger in this folder here.
   }
 ]
 ```
