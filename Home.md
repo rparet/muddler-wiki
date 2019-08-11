@@ -5,6 +5,13 @@
 * For instance, muddle-shadow-0.1.zip
 * Unzip file to a location on your harddrive, then add the bin directory inside muddle-shadow-0.1 directory you just unzipped to your path. For instance, if you unzipped the file to C:, you would add C:\muddle-shadow-0.1\bin to your path.
 
+## Docker image
+Some folks may prefer running muddler in a docker image to install java and running the jvm. You can `docker pull demonnic/muddler:latest` to obtain the latest version of muddler. The image is a bit over 300mb if you don't already have adoptoopenjdk/openjdk8 pulled. Then create a script called "muddle" in your path with the following:
+```
+docker run --rm -it -v $PWD:/$PWD -w /$PWD demonnic/muddler
+```
+This will run muddle from within the docker container, which already has adoptopenjdk's openjdk8 installed. 
+
 ## Usage
 Once you've got your project setup (see below and sidebars) and muddler setup in your path (see above) then it's as simple as running `muddle` in the root of your project. 
 You may wish to watch my demonstration at https://www.youtube.com/watch?v=LNKl0BZud5c
