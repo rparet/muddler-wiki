@@ -10,7 +10,6 @@ As with all things muddler, the alias objects are described using a json file. N
     "command": "score", # raw command to send to the mud. Same as typing in the command field in the alias editor in Mudlet
     "regex": "^s\\w$", # the regular expression to match for the alias. Note that the \ had to be escaped here.
     "script": "return true" # you can put lua code in here if you really want. Defaults to reading $name.lua from same folder
-    ]
   },
   {
   # You would describe the next alias in this folder here.
