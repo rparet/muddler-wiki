@@ -14,7 +14,6 @@ As with all things muddler, the key binding objects are described using a json f
     "command": "score", # raw command to send to the mud. Same as typing in the command field in the alias editor in Mudlet
     "keys": "shift+ctrl+g", # the key chord you want to bind to. See sidebar labeled "Keycodes" for more info
     "script": "return true" # you can put lua code in here if you really want. Defaults to reading $name.lua from same folder
-    ]
   },
   {
   # You would describe the next keybinding in this folder here.
