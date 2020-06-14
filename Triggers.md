@@ -35,7 +35,6 @@ As with all things muddler, the trigger objects are described using a json file.
       }
     ],
     "script": "return true" # you can put lua code in here if you really want. Defaults to reading $name.lua from same folder
-    ].
     "children": [ #A list of any child triggers. 
       {
         # you would describe the first child trigger here, with the same json fields as above
