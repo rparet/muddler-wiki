@@ -13,7 +13,6 @@ As with all things muddler, the timer objects are described using a json file. N
     "seconds": "0", # same as seconds in Mudlet, defaults to 0
     "milliseconds": "5", # same as milliseconds in Mudlet. Defaults to 0.
     "script": "return true" # you can put lua code in here if you really want. Defaults to reading $name.lua from same folder. Spaces are changed to _
-    ]
   },
   {
   # You would describe the next timer in this folder here.
