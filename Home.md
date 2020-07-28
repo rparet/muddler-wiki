@@ -24,7 +24,7 @@ At the root of your project, you may place a file named `mfile` . This file is a
   "version": "3.1"
 }
 ```
-These will be concatenated as `$package-$version` for the final mpackage value which is stored in config.lua for the zipped mudlet package. If you don't have an mfile, the version will be assumed to be 1.0 and the name the same as the basename of the project. So if you have the project in a folder called `mySuperCoolProject` the package name will be `mySuperCoolProject-1.0`
+These will be concatenated as `$package-$version` for the final mpackage value which is stored in config.lua for the zipped mudlet package. If you don't have an mfile, the package name will default to the same as the basename of the project. So if you have the project in a folder called `mySuperCoolProject` the package name will be `mySuperCoolProject`
 
 You can look at the included recreation of my animated timers under testmuddler in the muddler source for some guidelines, but the project structure should look something like this:
 ```
