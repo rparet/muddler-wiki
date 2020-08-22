@@ -7,6 +7,7 @@ As with all things muddler, the trigger objects are described using a json file.
   {
     "name": "Prompt", # the name of the trigger object being created
     "isActive": "yes", # is this active? Defaults to yes
+    "isFolder": "no", # is this a folder? Defaults to no. Set to yes if you want to define a trigger folder with no patterns in triggers.json
     "command": "score", # send a command when the trigger fires. like putting something in command in the editor
     "multiline": "no", # same as checking the AND / Multi-line (delta) checkbox. Defaults to no
     "multielineDelta": "0", # Integer, same as the box beneath the multiline checkbox
