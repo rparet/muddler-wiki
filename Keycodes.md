@@ -18,13 +18,14 @@ There is probably still some work to do around the keypad. I need to figure out 
 
 I only deal with these up  to F18. If that becomes a problem we will revisit it.
 
-## Other named keys
+## Named keys
 
 The other named keys muddler currently understands are:
 
 * 'minus'
 * 'asterisk'
 * 'slash'
+* 'plus'
 * 'backspace'
 * 'return'
 * 'enter'

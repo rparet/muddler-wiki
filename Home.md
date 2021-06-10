@@ -39,6 +39,10 @@ At the root of your project, you may place a file named `mfile` . This file is a
   * the name of the package.
 * title
   * the 'short description' in the package exporter in Mudlet 4.12+
+* description
+  * the full description of the package.
+  * supports Markdown
+  * will be autofilled by contents of `README.md` file at the root level of the project if it exists
 * version
   * the version of the package.
 * author
@@ -65,6 +69,18 @@ An example mfile with all the options might look like this
 
 The package value is used for the final package name. If you don't have an mfile, the package name will default to the same as the basename of the project. So if you have the project in a folder called `mySuperCoolProject` the package name will be `mySuperCoolProject`
 
+## Token Replacement
+
+Muddler provides for simple token replacement in your source files. Supported tokens are:
+
+* `@PKGNAME@`
+  * replaced by the package name, in the example above this would be "Recoginator"
+  * your packages install directory becomes `getMudletHomeDir() .. "/@PKGNAME@/"`
+  * this also means you can require files. To require 'emco.lua' from your package root for instance you could use `require("@PKGNAME@.emco")` and muddler will transform it to `require("Recoginator.emco")` for instance.
+* `@VERSION@`
+  * replaced by the version set in the mfile
+  * if no version is set, is replaced by the empty string.
+
 ## File Structure
 
 At the root of the package you have the mfile, and the `src` directory. The `src` directory will hold all the other pieces which are used to construct your Mudlet package. Within the `src` directory you may have the following sub directories:
@@ -75,6 +91,7 @@ At the root of the package you have the mfile, and the `src` directory. The `src
   * will be scanned for further subdirectories with a keys.json file. See [[Keybindings]]
 * resources
   * these files are copied to the root of your package, the same as the folder you drag things into in the package exporter in Mudlet to include with your package, so your image and other support files.
+  * these files eventually wind up in `getMudletHomeDir() .. "/@PKGNAME@/"`.
   * valid Mudlet xml in this directory will be imported when the package is imported.
   * this is also where your icon file should be placed if you've set one, with a name matching the icon value in your mfile
 * scripts

@@ -1,8 +1,10 @@
-## Scripts
+# Aliases
+
 As with all things muddler, the alias objects are described using a json file. Note that while you can include lua code in the script key, this is not really how it is meant  to be used. It can be handy for short snippets you don't want to make a new file for though.
 
 ## aliases.json
-```
+
+```json
 [
   {
     "name": "code", # the name of the alias object being created

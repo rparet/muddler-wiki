@@ -2,6 +2,8 @@
 
 As with all things muddler, the trigger objects are described using a json file. Note that while you can include lua code in the script key, this is not really how it is meant  to be used. It can be handy for short snippets you don't want to make a new file for though.
 
+The `\` character in json strings is the escape character, so for regex and the like you need to escape it in order to get the actual backslash. IE `^You have (\d+) coins\.$` would be `"^You have (\\d+) coins\\.$"` in your json file.
+
 ## triggers.json
 
 ```json
@@ -16,7 +18,7 @@ As with all things muddler, the trigger objects are described using a json file.
     "matchall": "no", # Like checking the "match all" checkbox. Defaults to no
     "filter": "no", # Like checking "only pass matches" in the trigger editor. defaults to no.
     "fireLength": "0", # Integer, like the fire length spinner in the trigger editor. Default to 0
-    "soundFile": "C:\sound.wav", # full path to the sound file. Like checking "play sound" and picking a file
+    "soundFile": "C:\\sound.wav", # full path to the sound file. Like checking "play sound" and picking a file. Note the double \
     "highlight": "no", # Like checking "highlight" in the editor. 
     "highlightFG": "#ff0000", # Hex value for foreground color to highlight. Ignored if highlight is not turned on. 
     "highlightBG": "#ffff00", # Hex value for background color to highlight. Ignored if highlight is not turned on.
