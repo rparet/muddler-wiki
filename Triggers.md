@@ -1,8 +1,10 @@
-## Triggers
+# Triggers
+
 As with all things muddler, the trigger objects are described using a json file. Note that while you can include lua code in the script key, this is not really how it is meant  to be used. It can be handy for short snippets you don't want to make a new file for though.
 
 ## triggers.json
-```
+
+```json
 [
   {
     "name": "Prompt", # the name of the trigger object being created
