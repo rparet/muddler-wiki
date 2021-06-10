@@ -8,7 +8,7 @@ It favors convention over configuration, which means it isn't designed to recrea
 
 ## Installation
 
-* Download the latest release from https://github.com/demonnic/muddler/releases.
+* Download the latest release from <https://github.com/demonnic/muddler/releases>.
 * For instance, muddle-shadow-0.7.zip
 * Unzip file to a location on your harddrive, then add the bin directory inside muddle-shadow-0.1 directory you just unzipped to your path. For instance, if you unzipped the file to C:, you would add C:\muddle-shadow-0.1\bin to your path.
 
@@ -28,7 +28,7 @@ Example is laid out on the marketplace page for the action: <https://github.com/
 
 ## Usage
 
-Once you've got your project setup (see below and sidebars) and muddler setup in your path (see above) then it's as simple as running `muddle` in the root of your project. 
+Once you've got your project setup (see below and sidebars) and muddler setup in your path (see above) then it's as simple as running `muddle` in the root of your project.
 You may wish to watch my demonstration at <https://www.youtube.com/watch?v=LNKl0BZud5c>
 
 ## Configuration
