@@ -19,7 +19,7 @@ The `\` character in json strings is the escape character, so for regex and the 
     "filter": "no", # Like checking "only pass matches" in the trigger editor. defaults to no.
     "fireLength": "0", # Integer, like the fire length spinner in the trigger editor. Default to 0
     "soundFile": "C:\\sound.wav", # full path to the sound file. Like checking "play sound" and picking a file. Note the double \
-    "highlight": "no", # Like checking "highlight" in the editor. 
+    "highlight": "no", # Like checking "highlight" in the editor. Defaults to no
     "highlightFG": "#ff0000", # Hex value for foreground color to highlight. Ignored if highlight is not turned on. 
     "highlightBG": "#ffff00", # Hex value for background color to highlight. Ignored if highlight is not turned on.
     "patterns": [ # the list of trigger patterns as maps containing two keys, "pattern" and "type" valid types are
