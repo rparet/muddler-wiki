@@ -163,7 +163,7 @@ All available options are:
 * preremove
   * runs before pkg removal
   * function or codestring like tempTimer/etc
-    * [[send("test")]]
+    * `[[send("test")]]`
     * function() send("test") end
 * postremove
   * like preremove, but after pkg removal
