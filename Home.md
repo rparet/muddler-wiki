@@ -130,7 +130,7 @@ C:\ANITIMERS
 
 As you can see, not every project will need every directory. In fact, the resources directory was added for testing muddler. A lot of times I get away with just `src/scripts` and `src/resources`
 
-There is a requirement that all items be within a subdirectory of its type designation. Which is to say you have to use `src/aliases/AnimatedTimers` rather than just `src/aliases`. This is due to a bug I simply haven't made the time to track down yet. I'll update this section if/when I do.
+~~There is a requirement that all items be within a subdirectory of its type designation. Which is to say you have to use `src/aliases/AnimatedTimers` rather than just `src/aliases`. This is due to a bug I simply haven't made the time to track down yet. I'll update this section if/when I do.~~ This was fixed in the 1.0.0 release!
 
 As a convention, an item's script can be automatically read from a .lua file of the same name, with spaces replaced by _. So in the example above I can see that there is a script in the `AnimatedTimers` group/folder named `code`.
 
