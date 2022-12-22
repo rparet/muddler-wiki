@@ -7,16 +7,16 @@ As with all things muddler, the script objects are described using a json file. 
 ```json
 [
   {
-    "name": "code", # the name of the script object being created
-    "isActive": "yes", # is this active? Defaults to yes
-    "eventHandlerList": [ #list of registered event handlers for this script object. 
+    "name": "code", // the name of the script object being created
+    "isActive": "yes", // is this active? Defaults to yes
+    "eventHandlerList": [ //list of registered event handlers for this script object. 
       "sysInstall",
       "gmcp.Char.Vitals"
     ],
-    "script": "return true" # you can put lua code in here if you really want. Defaults to reading $name.lua from same folder
+    "script": "return true" // you can put lua code in here if you really want. Defaults to reading $name.lua from same folder
   },
   {
-  # You would describe the next script in this folder here.
+  // You would describe the next script in this folder here.
   }
 ]
 ```

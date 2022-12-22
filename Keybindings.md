@@ -7,17 +7,17 @@ As with all things muddler, the key binding objects are described using a json f
 
 ## keys.json
 
-```json
+```jsonc
 [
   {
-    "name": "code", # the name of the key object being created
-    "isActive": "yes", # is this active? Defaults to yes
-    "command": "score", # raw command to send to the mud. Same as typing in the command field in the Key editor in Mudlet
-    "keys": "shift+ctrl+g", # the key chord you want to bind to. See sidebar labeled "Keycodes" for more info
-    "script": "return true" # you can put lua code in here if you really want. Defaults to reading $name.lua from same folder
+    "name": "code", // the name of the key object being created
+    "isActive": "yes", // is this active? Defaults to yes
+    "command": "score", // raw command to send to the mud. Same as typing in the command field in the Key editor in Mudlet
+    "keys": "shift+ctrl+g", // the key chord you want to bind to. See sidebar labeled "Keycodes" for more info
+    "script": "return true" // you can put lua code in here if you really want. Defaults to reading $name.lua from same folder
   },
   {
-  # You would describe the next keybinding in this folder here.
+  // You would describe the next keybinding in this folder here.
   }
 ]
 ```
