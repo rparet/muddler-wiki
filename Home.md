@@ -10,7 +10,7 @@ That being said, it can be made to do just about everything you might want to ma
 
 ## Install Muddler
 
-See the installation instructions over [HERE](Installation.md)
+See the installation instructions over [HERE](Installation)
 
 ## Using Muddler
 
