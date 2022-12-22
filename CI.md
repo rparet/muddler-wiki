@@ -70,7 +70,7 @@ And the output in the error console
 
 ![image](https://user-images.githubusercontent.com/3660/122658910-60f96000-d140-11eb-9629-28b4413dbae8.png)
 
-### On Github
+## On Github
 
 If you are hosting your project on github and want to build the package with muddler as part of your PR process, I provide a couple of github actions for working automatically building and testing your packages.
 
