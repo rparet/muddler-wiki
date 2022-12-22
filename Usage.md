@@ -59,20 +59,20 @@ An example mfile with all the options might look like this
 At the root of the project you have the mfile, and the `src` directory. The `src` directory will hold all the other pieces which are used to construct your Mudlet package. Within the `src` directory you may have the following sub directories:
 
 * aliases
-  * will be scanned for further subdirectories with an aliases.json file. See [Aliases](Aliases.md)
+  * will be scanned for further subdirectories with an aliases.json file. See [Aliases](Aliases)
 * keys
-  * will be scanned for further subdirectories with a keys.json file. See [Keybindings](Keybindings.md)
+  * will be scanned for further subdirectories with a keys.json file. See [Keybindings](Keybindings)
 * resources
   * these files are copied to the root of your package, the same as the folder you drag things into in the package exporter in Mudlet to include with your package, so your image and other support files.
   * these files eventually wind up in `getMudletHomeDir() .. "/@PKGNAME@/"`.
   * valid Mudlet package xml files in this directory will be imported when the package is imported.
   * this is also where your icon file should be placed if you've set one, with a name matching the icon value in your mfile
 * scripts
-  * will be scanned for further subdirectories with a scripts.json file. See [Scripts](Scripts.md)
+  * will be scanned for further subdirectories with a scripts.json file. See [Scripts](Scripts)
 * timers
-  * will be scanned for further subdirectories with a timers.json file. See [Timers](Timers.md)
+  * will be scanned for further subdirectories with a timers.json file. See [Timers](Timers)
 * triggers
-  * will be scanned for further subdirectories with a triggers.json file. See [Triggers](Triggers.md)
+  * will be scanned for further subdirectories with a triggers.json file. See [Triggers](Triggers)
 
 You can look at the included recreation of my animated timers under testmuddler in the muddler source for an example, where the project structure looks a bit like this:
 
@@ -109,11 +109,11 @@ Similarly, there is an alias named `anitimer demo` in a folder/group named `Anim
 
 Again, please see the pages for the individual Mudlet objects below or on the right bar for a complete description of the json you can use to describe each time.
 
-* [Triggers](Triggers.md)
-* [Aliases](Aliases.md)
-* [Scripts](Scripts.md)
-* [Timers](Timers.md)
-* [Keybindings](Keybindings.md)
+* [Triggers](Triggers)
+* [Aliases](Aliases)
+* [Scripts](Scripts)
+* [Timers](Timers)
+* [Keybindings](Keybindings)
 
 ## Token Replacement
 
@@ -135,4 +135,4 @@ Once you've got your project setup (see below and sidebars) and muddler setup in
 
 Once you've built your package you'll probably want to test it, either in your local copy of Mudlet or in GitHub.
 
-To find out more about the options for doing this, take a look [HERE](CI.md)
+To find out more about the options for doing this, take a look [HERE](CI)

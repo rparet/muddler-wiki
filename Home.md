@@ -14,4 +14,4 @@ See the installation instructions over [HERE](Installation)
 
 ## Using Muddler
 
-Usage information can be found over [HERE](Usage.md)
+Usage information can be found over [HERE](Usage)
