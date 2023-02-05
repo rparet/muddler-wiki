@@ -97,13 +97,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.3.0
 
       - name: Muddle
         uses: demonnic/build-with-muddler@v1.3
 
       - name: Upload MPackage
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3.1.2
         with:
           name: MDK-package
           path: build/tmp/
