@@ -4,7 +4,7 @@ There are two primary ways to install muddler for use on your computer.
 
 * [Docker](#docker-image) This method has a couple of distinct advantages, namely:
   * Easy to automatically update
-  * No need to have Java installed on your personal machine 
+  * No need to have Java installed on your personal machine
   * It's the one I personally use and am most familiar with
 * [Basic](#basic-installation)
   * Needs Java

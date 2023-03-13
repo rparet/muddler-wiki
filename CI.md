@@ -66,7 +66,7 @@ if not MDKhelper then
 end
 ```
 
-And the output in the error console 
+And the output in the error console
 
 ![image](https://user-images.githubusercontent.com/3660/122658910-60f96000-d140-11eb-9629-28b4413dbae8.png)
 

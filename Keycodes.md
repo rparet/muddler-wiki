@@ -20,8 +20,12 @@ I only deal with these up  to F18. If that becomes a problem we will revisit it.
 
 ## Named keys
 
-The other named keys muddler currently understands are:
+The named keys muddler currently understands are:
 
+* 'shift'
+* 'ctrl'
+* 'alt'
+* 'keypad'
 * 'minus'
 * 'asterisk'
 * 'slash'
