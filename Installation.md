@@ -23,7 +23,7 @@ Uses a docker container I maintain so that you don't have to manage your own Jav
 
 * `docker pull demonnic/muddler:latest`
 * Create a script to run muddler using docker
-  * For a system running bash, you can download the script [HERE](https://raw.githubusercontent.com/demonnic/muddler/main/muddle) and save it anywhere in your path, then make it executable using `chmod +c /path/to/muddle`
+  * For a system running bash, you can download the script [HERE](https://raw.githubusercontent.com/demonnic/muddler/main/muddle) and save it anywhere in your path, then make it executable using `chmod +x /path/to/muddle`
   * The main thing is you want to run:
   * `docker run --pull always --rm -it -u $(id -u):$(id -g) -v $PWD:/$PWD -w /$PWD demonnic/muddler`
   * If you do not want it to autoupdate, remove `--pull always` from the command.
