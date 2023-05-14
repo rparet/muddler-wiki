@@ -39,6 +39,8 @@ At the root of your project, you may place a file named `mfile` . The mfile cont
 * dependencies
   * This is a comma separated list of other packages which should be installed for this one to work properly
   * Currently no enforcement or resolution around this, though there may be down the line with Mudlet's package repository
+* outputFile
+  * true/false, if true will create a .output file for use with the local CI setup when you build the project.
 
 An example mfile with all the options might look like this
 
@@ -50,7 +52,8 @@ An example mfile with all the options might look like this
   "version": "1.0.0",
   "author": "Demonnic",
   "icon": "computer.png",
-  "dependencies": "Package One,Package Two"
+  "dependencies": "Package One,Package Two",
+  "outputFile": true
 }
 ```
 
