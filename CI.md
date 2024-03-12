@@ -12,7 +12,7 @@ There are two ways to set things up
 
 If you want to automatically install your pkg in your local Mudlet with muddler you can set the `outputFile` key in the mfile to true, which causes muddler to write a .output file to the root of your project when it is done building. This file contains a simple json object with the package name and the file location.
 
-Then install the Muddler.mpackage from the releases page in Mudlet which allows for reloading muddler packages when they are built. This is intended to be develop time only, which is to say things you want to have happen when testing the package which you don't necessarily want to happen on pkg removal/install on your users machine, such as test object setup or teardown, running test functions, etc. If using this I recommend adding .output to your .gitignore file as it will see some churn during development.
+Then install the Muddler.mpackage from the muddler [releases page](https://github.com/demonnic/muddler/releases)  which allows for reloading muddler packages when they are built. This is intended to be develop time only, which is to say things you want to have happen when testing the package which you don't necessarily want to happen on pkg removal/install on your users machine, such as test object setup or teardown, running test functions, etc. If using this I recommend adding .output to your .gitignore file as it will see some churn during development.
 
 The most basic of these might look like this:
 
